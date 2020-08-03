@@ -1,5 +1,9 @@
-h1{
-    color: orange;
+body{
+    background-color: #EAF6F6;
+}
+
+h1,h3{
+    color: #66BFBF;
 }
 
 h3:hover{
@@ -9,4 +13,10 @@ h3:hover{
 
 p{
     margin: 1px;
+}
+
+hr{
+    background-color: white;
+    height: 3px;
+    border-style: none;    
 }
