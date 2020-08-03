@@ -1,0 +1,12 @@
+h1{
+    color: orange;
+}
+
+h3:hover{
+    color:orange;
+    text-decoration: underline;
+}
+
+p{
+    margin: 1px;
+}

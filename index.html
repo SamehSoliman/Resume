@@ -4,17 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sameh CV</title>
-    <style>
-        p{
-            margin: 1px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
+
+</style>
 </head>
 <body>
     <table cellspacing="10">
         <tr>
             <td>
-                <img src="images/sameh.png" alt="" height="200" width="200">
+                <img id="myImage" onclick="myFunction()" src="images/sameh.png" alt="Sameh image" style="width:200px;height:200px;border-radius:50%;">
             </td>
             <td>
                 <h1>Sam Soliman</h1>
@@ -169,5 +167,14 @@
     <p>References available upon request</p>
 
     <a href="contacts_detail.html">Contact Information</a>
+
+<script>
+    function myFunction(){
+        var myPic = document.getElementById("myImage");
+        myPic.src = "images/face1.jpg";
+    }
+</script>
+
+
 </body>
 </html>
